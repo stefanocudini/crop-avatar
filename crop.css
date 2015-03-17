@@ -1,0 +1,79 @@
+body {
+	background:url('crop.png') 6px 6px no-repeat #fff;
+}
+h1 {
+	font-size:1.5em;
+	margin-left:50px;
+}
+#content {
+	float:left;
+	padding:1.5em;
+	width:400px;
+	margin-right:1.5em;
+	border-right: 1px solid #ccc;	
+}
+#list_wrap {
+	float:left;
+	padding:.5em;
+}
+#btlist {
+	clear:both;
+}
+#list th {
+	text-align:left;
+	padding:0 .5em;
+}
+
+.slider{
+	float:left;
+	clear:left;
+	width:70%;
+	margin-right:.85em;
+}
+label {
+	clear:both;
+	float:left
+}
+em{
+	display:block;
+	float:left;
+}
+hr {
+	clear:both;
+	margin:1em 0;
+	visibility:hidden;
+}
+#imcrop_wrap {
+	border:1px solid #ccc;
+	float:left;
+	overflow:hidden;
+}
+#imcrop_wrap img {
+	height:260px;
+	width:260px;
+}
+#thumbs {
+	height:200px;
+}
+#thumbs img {
+	border:none;
+	margin:5px;
+}
+.loading {
+	background: url('loader.gif') center center no-repeat;
+	border: 1px solid #ccc;
+}
+
+#copy {
+	position:fixed;
+	z-index:1000;
+	right:-6px;
+	top:-6px;
+	font-style:italic;
+	font-size:.85em;
+	padding:5px 8px;
+	background: #eee;
+	border: 2px solid #ccc;		
+	border-radius:.7em;
+	opacity: 0.8;		
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Crop image profile</title>
+<style type="text/css">
+	@import url('css/ui-lightness/jquery-ui-1.8.9.custom.css');
+	@import url('crop.css');
+</style>
+</head>
+<body>
+	
+	<h1>Crop image</h1>
+	<p>generatore di immagini del profilo</p>
+	
+	<div id="copy"><a href="http://labs.easyblog.it/">Labs</a> &bull; <a rel="author" href="http://labs.easyblog.it/stefano-cudini/">Stefano Cudini</a></div>
+
+	<div id="content">
+	
+	<label>Taglia:</label>
+	<div id="sldim" class="slider"></div><em>100%</em>
+	
+	<hr />
+	
+	<label>Ruota:</label>
+	<div id="slrot" class="slider"></div><em>0&deg;</em>
+	
+	<hr />
+		
+	<input id="btsav" type="button" value="Save" />
+	<!--input id="btres" type="button" value="Reset" /-->
+	
+	<hr />
+	
+	<div id="imcrop_wrap"><img id="imcrop" src="./upped/0amadonna.jpg" /></div>
+
+	<hr />
+	
+	<div id="thumbs"></div>
+	
+	</div>
+	
+	<div id="list_wrap">
+		<input id="btlist" type="button" value="View photos" />
+		<hr />
+		<div id="list">
+		</div>
+	</div>
+	
+	
+	<script type="text/javascript" src="js/jquery-1.4.4.min.js"></script>
+	<script type="text/javascript" src="js/jquery-ui-1.8.10.custom.min.js"></script>
+	<script type="text/javascript" src="js/jquery.Jcrop.min.js"></script>
+	<script type="text/javascript" src="js/jquery.rotate.1-1.js"></script>
+	<script type="text/javascript" src="crop.devel.js"></script>
+	<script type="text/javascript" src="/labs-common.js"></script>	
+	</body>
+</html>
+
+
+
