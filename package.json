@@ -1,0 +1,26 @@
+{
+  "name": "crop-avatar",
+  "version": "0.0.0",
+  "description": "Interactive interface for cropping and rotation of photos for creating an avatar's profile",
+  "main": "crop.devel.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stefanocudini/crop-avatar.git"
+  },
+  "keywords": [
+    "ajax",
+    "mysql",
+    "php",
+    "jquery",
+    "avatar"
+  ],
+  "author": "Stefano Cudini",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stefanocudini/crop-avatar/issues"
+  },
+  "homepage": "https://github.com/stefanocudini/crop-avatar"
+}
