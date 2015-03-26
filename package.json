@@ -14,8 +14,7 @@
     "ajax",
     "mysql",
     "php",
-    "jquery",
-    "avatar"
+    "jquery"
   ],
   "author": "Stefano Cudini",
   "license": "MIT",
